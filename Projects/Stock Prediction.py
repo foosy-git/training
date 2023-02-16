@@ -44,6 +44,6 @@ forecast = model.predict(future)
 
 # Visualize the forecast
 model.plot(forecast, xlabel="Date", ylabel="Adjusted Close Price")
-plt.title("Apple Stock Price Forecast")
+plt.title("ABBV Stock Price Forecast")
 plt.axvline(x=future_date, color='r', linestyle='--')
 plt.show()
